@@ -1,0 +1,24 @@
+Proprietary License
+
+Copyright (c) 2026 Deque Systems, Inc. All rights reserved.
+
+This repository contains documentation and support resources for axe MCP Server, 
+a proprietary software product owned by Deque Systems, Inc.
+
+The software itself (distributed as a Docker container) is licensed separately 
+under commercial terms. Use of axe MCP Server requires:
+
+1. A valid subscription to Axe DevTools for Web
+2. Acceptance of Deque's Terms of Service
+3. A valid API key from axe Account Portal (https://axe.deque.com)
+
+The content in this repository (documentation, examples, and support materials) 
+is provided for informational purposes only. No license is granted to use, 
+modify, or distribute the axe MCP Server software itself.
+
+For licensing inquiries, contact sales@deque.com or visit:
+https://www.deque.com/axe/mcp-server/
+
+DISCLAIMER: THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

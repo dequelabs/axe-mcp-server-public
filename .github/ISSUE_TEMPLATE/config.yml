@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 Email Support (Primary)
+    url: mailto:helpdesk@deque.com
+    about: Contact our support team for bug reports, technical issues, and product support
+  - name: 🆘 Support Portal
+    url: https://support.deque.com
+    about: Alternative support portal for paid customers
+  - name: 📚 Documentation
+    url: https://docs.deque.com/devtools-server/4.0.0/en/axe-mcp-server
+    about: Setup guides, troubleshooting, and usage instructions
+  - name: 💼 Sales Inquiries
+    url: https://www.deque.com/contact
+    about: Questions about pricing, licensing, or purchasing axe MCP Server
