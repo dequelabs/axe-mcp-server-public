@@ -1,11 +1,8 @@
-
-Copy
-
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.deque/axe-mcp-server",
+  "name": "io.github.dequelabs/axe-mcp-server",
   "title": "axe MCP Server",
-  "description": "Find and fix web accessibility issues with AI-powered testing and remediation. Integrates axe DevTools' industry-leading WCAG compliance engine directly into your IDE workflow.",
+  "description": "Official MCP server for Axe DevTools for Web.",
   "repository": {
     "url": "https://github.com/dequelabs/axe-mcp-server-public",
     "source": "github"
@@ -24,7 +21,7 @@ Copy
   "packages": [
     {
       "registryType": "oci",
-      "identifier": "docker.io/dequesystems/axe-mcp-server:1.0.1",
+      "identifier": "docker.io/dequesystems/axe-mcp-server:v1.0.2",
       "transport": {
         "type": "stdio"
       }
