@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.deque/axe-mcp-server",
+  "title": "axe MCP Server",
+  "description": "Official MCP server for Axe DevTools for Web. Find and fix accessibility issues directly in your IDE with Claude, GitHub Copilot, Cursor, and other AI coding agents.",
+  "repository": {
+    "url": "https://github.com/dequelabs/axe-mcp-server-public",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "homepage": "https://www.deque.com/axe/mcp-server/",
+  "license": "PROPRIETARY",
+  "tags": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "testing",
+    "compliance",
+    "remediation"
+  ],
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "docker.io/dequesystems/axe-mcp-server:1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
