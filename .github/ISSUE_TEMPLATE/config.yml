@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 📧 Email Support (Primary)
-    url: mailto:helpdesk@deque.com
+  - name: 📧 Email Support - helpdesk@deque.com
+    url: https://github.com/dequelabs/axe-mcp-server-public/blob/main/.github/SUPPORT.md
     about: Contact our support team for bug reports, technical issues, and product support
   - name: 🆘 Support Portal
     url: https://support.deque.com
