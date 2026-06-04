@@ -7,7 +7,7 @@
     "url": "https://github.com/dequelabs/axe-mcp-server-public",
     "source": "github"
   },
-  "version": "1.0.2",
+  "version": "1.2.1",
   "homepage": "https://www.deque.com/axe/mcp-server/",
   "license": "PROPRIETARY",
   "tags": [
@@ -21,7 +21,7 @@
   "packages": [
     {
       "registryType": "oci",
-      "identifier": "docker.io/dequesystems/axe-mcp-server:v1.0.2",
+      "identifier": "docker.io/dequesystems/axe-mcp-server:v1.2.1",
       "transport": {
         "type": "stdio"
       }
