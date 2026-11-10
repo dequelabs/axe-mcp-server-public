@@ -8,23 +8,34 @@
     "source": "github"
   },
   "version": "1.7.1",
-  "homepage": "https://www.deque.com/axe/mcp-server/",
-  "license": "PROPRIETARY",
-  "tags": [
-    "accessibility",
-    "a11y",
-    "wcag",
-    "testing",
-    "compliance",
-    "remediation"
-  ],
+  "websiteUrl": "https://www.deque.com/axe/mcp-server/",
   "packages": [
     {
       "registryType": "oci",
       "identifier": "docker.io/dequesystems/axe-mcp-server:v1.7.1",
       "transport": {
         "type": "stdio"
-      }
+      },
+      "environmentVariables": [
+        {
+          "name": "AXE_API_KEY",
+          "description": "Axe MCP Server API key from the Axe Account Portal (API Keys). Set this or AXE_ACCESS_TOKEN, not both.",
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "AXE_ACCESS_TOKEN",
+          "description": "OAuth 2.0 access token from `npx @deque/axe-auth token`. Set this or AXE_API_KEY, not both.",
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "AXE_SERVER_URL",
+          "description": "Axe server URL. Change it for regional, private cloud, or on-premises deployments.",
+          "default": "https://axe.deque.com",
+          "format": "string"
+        }
+      ]
     }
   ]
 }
